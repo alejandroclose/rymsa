@@ -3,12 +3,12 @@ import { useState } from 'react'
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
   return (
-    <div className="w-screen">
+    <div className="w-screen fixed top-0">
       <div className="bg-white">
         <nav className="bg-white shadow-custom1">
-          <div className=" mx-auto px-4 sm:px-6 lg:px-8">
+          <div className=" mx-auto px-2 sm:px-6 lg:px-8">
             <div className="flex justify-between h-16">
-              <div className="flex w-screen">
+              <div className="flex w-full">
                 <div className="flex-shrink-0 flex items-center text-2xl text-red leading-9 font-racing">
                   R&MSA
                   {/* <img
@@ -97,28 +97,28 @@ export default function Navbar() {
 
       Open: "block", closed: "hidden"
     --> */}
-          <div className={(isOpen) ? "block" :"hidden sm:hidden"}>
-            <div className="pt-2 pb-3 space-y-1">
+          <div className={(isOpen) ? "block h-screen w-screen z-50 bg-gray flex items-center justify-center" :"hidden sm:hidden"}>
+            <div className="pt-2 pb-3 space-y-1 text-center">
               {/* <!-- Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800" --> */}
               <a
                 href="#"
-                className="border-transparent block pl-3 pr-4 py-2 border-l-4 text-base text-blue font-medium"
+                className="border-transparent block pl-3 pr-4 py-2 border-l-4 text-base text-blue text-3xl font-racing font-medium"
               >
-                Conócenos
+                CONÓCENOS
               </a>
 
               <a
                 href="#"
-                className="border-transparent block pl-3 pr-4 py-2 border-l-4 text-base text-blue font-medium"
+                className="border-transparent block pl-3 pr-4 py-2 border-l-4 text-base text-blue text-3xl font-racing font-medium"
               >
-                Soluciones
+                SOLUCIONES
               </a>
 
               <a
                 href="#"
-                className="border-transparent block pl-3 pr-4 py-2 border-l-4 text-base text-blue font-medium"
+                className="border-transparent block pl-3 pr-4 py-2 border-l-4 text-base text-blue text-3xl font-racing font-medium"
               >
-                Contacto
+                CONTACTO
               </a>
             </div>
           </div>

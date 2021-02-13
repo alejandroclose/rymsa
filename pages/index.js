@@ -6,12 +6,14 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>R&MSA | Produciendo Valor, Transportando Bienes</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet" /> 
       </Head>
 <Navbar></Navbar>
       <main className={styles.main}>
-        <h1 className="text-red-600">
+        <h1 className="text-red">
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 

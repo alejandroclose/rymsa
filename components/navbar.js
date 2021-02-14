@@ -73,7 +73,7 @@ export default function Navbar() {
                   </svg>
                   {/* <!--Heroicon name: outline/x--> */}
                   <svg
-                    className={(isOpen) ? "block" : "hidden h-6 w-6"}
+                    className={(isOpen) ? "block h-6 w-6" : "hidden"}
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"

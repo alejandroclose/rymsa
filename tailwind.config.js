@@ -21,6 +21,7 @@ module.exports = {
       white:'#FFFFFF',
     },
     fontFamily:{
+      titillium: 'Titillium Web',
       racing: 'Racing Sans One'
     },
     boxShadow: {

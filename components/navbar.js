@@ -22,25 +22,25 @@ export default function Navbar() {
                     alt="Workflow"
                   /> */}
                 </div>
-                <div className="hidden w-full justify-end sm:-my-px sm:ml-6 sm:flex sm:space-x-8">
+                <div className="hidden w-full justify-end sm:-my-px sm:ml-6 sm:flex sm:space-x-8 font-body">
                   {/* <!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" --> */}
                   <a
                     href="#"
-                    className="border-transparent inline-flex items-center px-1 pt-1 border-b-2 text-sm text-blue font-medium"
+                    className="border-transparent hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm text-blue text-base font-bold font-titillium"
                   >
                     Conócenos
                   </a>
 
                   <a
                     href="#"
-                    className="border-transparent hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm text-blue font-medium"
+                    className="border-transparent hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm text-blue text-base font-bold font-titillium"
                   >
                     Soluciones
                   </a>
 
                   <a
                     href="#"
-                    className="border-transparent hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm text-blue font-medium"
+                    className="border-transparent hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm text-blue text-base font-bold font-titillium"
                   >
                     Contacto
                   </a>

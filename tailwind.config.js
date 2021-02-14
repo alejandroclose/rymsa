@@ -1,8 +1,12 @@
 module.exports = {
-  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
+  purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: theme => ({
+        'hero': "url('/images/rymsa_hero.png')"
+      })
+    },
     colors: {
       transparent:'transparent',
       current:'currentColor',
@@ -26,6 +30,7 @@ module.exports = {
     },
     boxShadow: {
       custom1: '0px 4px 4px rgba(0, 0, 0, 0.25)',
+      customBtn: '2px 7px 24px 1px rgba(0, 0, 0, 0.45)',
       sm: '0 1px 2px 0 rgba(0, 0, 0, 0.05)',
       DEFAULT: '0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)',
       md: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)',
@@ -33,7 +38,18 @@ module.exports = {
       xl: '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)',
       inner: 'inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)',
       none: 'none',
-    }
+    },
+    height: {
+      6:'1.5rem',
+      8:'2rem',
+      10:'2.5rem',
+      12:'3rem',
+      16:'4rem',
+      full:'100%',
+      screen: '100vh',
+      hero: '271px',
+      heroLg: '728px',
+    },
   },
   variants: {
     extend: {},

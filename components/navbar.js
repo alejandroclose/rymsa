@@ -3,7 +3,7 @@ import { useState } from 'react'
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
   return (
-    <div className="w-screen fixed top-0">
+    <div className="w-screen fixed top-0 z-50">
       <div className="bg-white">
         <nav className="bg-white shadow-custom1">
           <div className=" mx-auto px-2 sm:px-6 lg:px-8">

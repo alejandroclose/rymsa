@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Navbar from '../components/navbar'
 import Hero from '../components/hero'
+import Features from '../components/features'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
 <Navbar></Navbar>
       <main className="px-0 flex flex-col justify-center items-center font-titillium">
       <Hero></Hero>
+      <Features/>
       </main>
 
       <footer className={styles.footer}>

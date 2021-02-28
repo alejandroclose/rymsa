@@ -12,7 +12,7 @@ export default function Hero() {
           <br />
           fabricación de partes para camiones.
         </div>
-        <button className="bg-blue text-white text-sm h-12 w-40 lg:w-3/12 my-6 rounded shadow-customBtn">
+        <button className="bg-blue text-white text-sm h-12 w-48 px-4 lg:w-3/12 my-6 rounded shadow-customBtn">
           Contacto
         </button>
       </div>

@@ -36,6 +36,11 @@ export default function Features() {
                 </div>
             </dl>
         </div>
+        <div className="w-screen mx-auto py-6 px-4 sm:px-6 lg:px-8 flex justify-center">
+        <button className="bg-red text-white text-sm h-12 w-48 px-4 lg:w-3/12 my-6 rounded shadow-customBtn">
+          Conoce nuestros servicios
+        </button>
+        </div>
       </div>
     </>
   );

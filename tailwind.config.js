@@ -50,6 +50,11 @@ module.exports = {
       hero: '271px',
       heroLg: '728px',
     },
+    listStyleType: {
+      none:'none',
+      square:'square',
+      roman: 'upper-roman'
+    }
   },
   variants: {
     extend: {},

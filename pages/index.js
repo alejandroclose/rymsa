@@ -4,6 +4,7 @@ import Navbar from "../components/navbar";
 import Hero from "../components/hero";
 import Features from "../components/features";
 import Services from "../components/services";
+import Quote from "../components/quote"
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
         <Hero></Hero>
         <Features />
         <Services />
+        <Quote/>
       </main>
 
       <footer className={styles.footer}>

@@ -18,7 +18,7 @@ export default function Features() {
                 </div>
                 <div className="w-52 flex flex-col items-center py-6">
                 <Image src="/images/icons/quality.png" width={30} height={30}/>
-                  <dt class="text-xl text-white text-center font-black">
+                  <dt className="text-xl text-white text-center font-black">
                     CALIDAD
                   </dt>
                   <dd className="mt-2 h-40 text-white text-center">
@@ -27,7 +27,7 @@ export default function Features() {
                 </div>
                 <div className="w-52 flex flex-col items-center py-6">
                 <Image src="/images/icons/fast.png" width={30} height={30}/>
-                  <dt class="text-xl text-white text-center font-black">
+                  <dt className="text-xl text-white text-center font-black">
                     RAPIDEZ
                   </dt>
                   <dd className="mt-2 h-40 text-white text-center">

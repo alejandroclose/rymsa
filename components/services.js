@@ -26,7 +26,7 @@ export default function Services(props) {
               </ul>
             </div>
             <button className="bg-blue text-white text-sm h-12 w-48 px-4 my-6 rounded shadow-customBtn">
-              Cotizar ahora
+            <a href="https://api.whatsapp.com/send?phone=+50230342085">Cotizar ahora</a>
             </button>
           </div>
         </div>
@@ -45,7 +45,7 @@ export default function Services(props) {
               </p>
             </div>
             <button className="bg-blue text-white text-sm h-12 w-48 px-4 my-6 rounded shadow-customBtn">
-              Cotizar ahora
+            <a href="https://api.whatsapp.com/send?phone=+50230342085">Cotizar ahora</a>
             </button>
           </div>
         </div>

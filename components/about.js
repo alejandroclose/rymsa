@@ -35,7 +35,7 @@ export default function About() {
               <div className="font-normal text-base pb-2 lg:text-center">24/7</div>
               <div className="bg-darkBlue mx-auto sm:px-6 lg:px-8 flex justify-center">
                 <button className="bg-red text-white text-sm h-12 w-48 px-4 my-6 rounded shadow-customBtn">
-                  <a href="tel:+50230342085">Llama y cotiza</a>
+                  <a href="tel:+50230342085">Llama y cotiza ahora</a>
                 </button>
               </div>
             </div>

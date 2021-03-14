@@ -18,7 +18,7 @@ export default function About() {
                 loading="lazy"
               ></iframe>
             </div>
-            <div className="flex flex-col justify-center lg:w-2/4 lg:px-24">
+            <div className="flex flex-col justify-center lg:w-2/4 lg:px-36">
             <div className="text-xl text-center p-8 font-black hidden lg:block">CONÓCENOS</div>
               <div className="font-semibold text-lg pt-1 lg:text-center">Ubicación</div>
               <div className="font-normal text-base pb-4 lg:text-center">

@@ -8,7 +8,7 @@ export default function Services(props) {
       <div className="pt-12">
         <h2 className="text-xl text-center font-black pb-2 md:hidden">TRANSPORTE</h2>
         <div className="flex flex-col lg:flex-row align-center">
-          <div className="flex justify-center lg:justify-start lg:pl-40 lg:w-7/12">
+          <div className="flex justify-center lg:justify-start lg:pl-32 lg:w-7/12">
             <Image src="/images/transport.png" height={700} width={750} />
           </div>
           <div className="flex flex-col items-center justify-center px-10 py-5 lg:w-4/12">

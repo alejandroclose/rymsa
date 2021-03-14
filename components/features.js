@@ -5,8 +5,8 @@ export default function Features() {
   return (
     <>
       <div id='conocenos'></div>
-      <div className="py-8 bg-darkBlue w-screen">
-        <div className="mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="py-8 bg-darkBlue w-full">
+        <div className="mx-auto">
             <dl className="flex flex-col md:flex-row items-center justify-around">
             <div className="w-52 flex flex-col items-center py-6">
                   <Image src="/images/icons/trust.png" width={30} height={30}/>
@@ -37,7 +37,7 @@ export default function Features() {
                 </div>
             </dl>
         </div>
-        <div className="w-screen mx-auto py-6 px-4 sm:px-6 lg:px-8 flex justify-center">
+        <div className="w-full mx-auto py-6 px-4 sm:px-6 lg:px-8 flex justify-center">
         <button className="bg-red text-white text-sm h-12 w-48 px-4 my-6 rounded shadow-customBtn">
           <a href="#soluciones">Conoce nuestros servicios</a>
         </button>

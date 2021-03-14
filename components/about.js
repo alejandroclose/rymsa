@@ -5,12 +5,12 @@ export default function About() {
   return (
     <>
       <div id="contacto"></div>
-      <div className="pb-8 px-8 bg-darkBlue w-screen">
-        <div className="mx-auto text-white flex flex-col px-4 sm:px-6 lg:px-8">
+      <div className="pb-8 bg-darkBlue w-full">
+        <div className="mx-auto text-white flex flex-col">
           <div  className="text-xl text-center p-8 font-black lg:hidden">CONÓCENOS</div>
           <div className="flex flex-col lg:flex-row">
             <div className="py-4 lg:w-2/4">
-              <iframe className="w-full h-80 lg:h-100 lg:pl-24"
+              <iframe className="w-full h-80 lg:h-100 lg:pl-40"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2639.080712211453!2d-90.59603092055713!3d14.500703636786353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a78c273f80e9%3A0xb18b0eece2c5a6c5!2s16%20Avenida%2C%20Villa%20Nueva%2C%20Guatemala!5e0!3m2!1sen!2ses!4v1615662024532!5m2!1sen!2ses"
                 width="275"
                 height="275"

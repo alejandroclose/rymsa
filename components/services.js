@@ -18,7 +18,7 @@ export default function Services(props) {
                 Ponemos a su disposición una amplia variedad de camiones para
                 realizar cargas en Centro América:
               </p>
-              <ul className="list-square flex flex-col justify-center pl-14 lg:pl-36 py-3">
+              <ul className="list-square flex flex-col justify-center pl-14 lg:pl-24 py-3">
                 <li>Furgones de 53 pies.</li>
                 <li>Pipas de 8000 galones.</li>
                 <li>Góndolas de carga de 30 toneladas.</li>

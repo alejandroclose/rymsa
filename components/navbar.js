@@ -3,7 +3,7 @@ import { useState } from 'react'
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
   return (
-    <div className="w-screen fixed top-0 z-50">
+    <div className="w-full fixed top-0 z-50">
       <div className="bg-white">
         <nav className="bg-white shadow-custom1">
           <div className=" mx-auto px-2 sm:px-6 lg:px-8">
@@ -97,7 +97,7 @@ export default function Navbar() {
 
       Open: "block", closed: "hidden"
     --> */}
-          <div className={(isOpen) ? "block h-screen w-screen z-50 bg-gray flex items-center justify-center" :"hidden sm:hidden"}>
+          <div className={(isOpen) ? "block h-screen w-full z-50 bg-gray flex items-center justify-center" :"hidden sm:hidden"}>
             <div className="pt-2 pb-3 space-y-1 text-center">
               {/* <!-- Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800" --> */}
               <a

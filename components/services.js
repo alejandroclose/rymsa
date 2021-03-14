@@ -33,7 +33,7 @@ export default function Services(props) {
       </div>
       <div className="pt-12">
         <h2 className="text-xl text-center font-black pb-2 md:hidden">PRODUCCIÓN</h2>
-        <div className="pb-16 flex flex-col lg:flex-row-reverse align-center">
+        <div className="pb-8 flex flex-col lg:flex-row-reverse align-center">
           <div className="flex justify-center lg:pr-40 lg:w-7/12">
           <Image src="/images/sertoy.png" height={700} width={750} />
           </div>

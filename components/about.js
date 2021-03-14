@@ -5,7 +5,7 @@ export default function About() {
   return (
     <>
       <div id="contacto"></div>
-      <div className="pb-8 bg-darkBlue w-full">
+      <div className="pb-8 lg:pt-12 bg-darkBlue w-full">
         <div className="mx-auto text-white flex flex-col">
           <h2  className="text-xl text-center px-8 pt-8 font-black lg:hidden">CONÓCENOS</h2>
           <div className="px-12 pb-12 flex flex-col lg:flex-row lg:px-0">

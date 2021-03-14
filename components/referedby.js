@@ -9,15 +9,15 @@ export default function ReferedBy() {
           Empresas que nos avalan:
         </h2>
         <div>
-          <div className="mx-auto w-full">
+          <div className="mx-auto w-full pb-8">
             <dl className="flex flex-col md:flex-row items-center justify-around">
-              <div className="w-72 flex flex-col items-center py-6">
+              <div className="w-72 flex flex-col items-center py-8">
                 <Image src="/images/ingrup.png" width={100} height={100} />
               </div>
-              <div className="w-72 flex flex-col items-center py-6">
+              <div className="w-72 flex flex-col items-center py-8">
                 <Image src="/images/magdalena.png" width={100} height={100} />
               </div>
-              <div className="w-72 flex flex-col items-center py-6">
+              <div className="w-72 flex flex-col items-center py-8">
                 <Image src="/images/kerns.png" width={100} height={100} />
               </div>
             </dl>

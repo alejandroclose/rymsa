@@ -4,7 +4,8 @@ import Image from "next/image";
 export default function Features() {
   return (
     <>
-      <div className="py-16 bg-darkBlue w-screen">
+      <div id='conocenos'></div>
+      <div className="py-8 bg-darkBlue w-screen">
         <div className="mx-auto px-4 sm:px-6 lg:px-8">
             <dl className="flex flex-col md:flex-row items-center justify-around">
             <div className="w-52 flex flex-col items-center py-6">
@@ -38,7 +39,7 @@ export default function Features() {
         </div>
         <div className="w-screen mx-auto py-6 px-4 sm:px-6 lg:px-8 flex justify-center">
         <button className="bg-red text-white text-sm h-12 w-48 px-4 my-6 rounded shadow-customBtn">
-          Conoce nuestros servicios
+          <a href="#soluciones">Conoce nuestros servicios</a>
         </button>
         </div>
       </div>

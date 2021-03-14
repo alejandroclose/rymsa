@@ -25,21 +25,21 @@ export default function Navbar() {
                 <div className="hidden w-full justify-end sm:-my-px sm:ml-6 sm:flex sm:space-x-8 font-body">
                   {/* <!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" --> */}
                   <a
-                    href="#"
+                    href="#conocenos"
                     className="border-transparent hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm text-blue text-base font-bold font-titillium"
                   >
                     Conócenos
                   </a>
 
                   <a
-                    href="#"
+                    href="#soluciones"
                     className="border-transparent hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm text-blue text-base font-bold font-titillium"
                   >
                     Soluciones
                   </a>
 
                   <a
-                    href="#"
+                    href="#contacto"
                     className="border-transparent hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm text-blue text-base font-bold font-titillium"
                   >
                     Contacto
@@ -101,21 +101,21 @@ export default function Navbar() {
             <div className="pt-2 pb-3 space-y-1 text-center">
               {/* <!-- Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800" --> */}
               <a
-                href="#"
+                href="#conocenos"
                 className="border-transparent block pl-3 pr-4 py-2 border-l-4 text-base text-blue text-3xl font-racing font-medium"
               >
                 CONÓCENOS
               </a>
 
               <a
-                href="#"
+                href="#soluciones"
                 className="border-transparent block pl-3 pr-4 py-2 border-l-4 text-base text-blue text-3xl font-racing font-medium"
               >
                 SOLUCIONES
               </a>
 
               <a
-                href="#"
+                href="#contacto"
                 className="border-transparent block pl-3 pr-4 py-2 border-l-4 text-base text-blue text-3xl font-racing font-medium"
               >
                 CONTACTO

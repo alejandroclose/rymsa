@@ -13,6 +13,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>R&MSA | Produciendo Valor, Transportando Bienes</title>
+        <meta name="description" content="Servicio internacional de transporte terrestre. Especializados en la fabricación de partes para camiones." />
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link

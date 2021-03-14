@@ -9,7 +9,7 @@ export default function Features() {
         <div className="mx-auto">
             <dl className="flex flex-col md:flex-row items-center justify-around">
             <div className="w-52 flex flex-col items-center py-6">
-                  <Image src="/images/icons/trust.png" width={30} height={30}/>
+                  <Image src="/images/icons/trust.png" width={30} height={30} alt="icono de confianza"/>
                   <dt className="text-xl text-center text-white font-black">
                    CONFIANZA
                   </dt>
@@ -18,7 +18,7 @@ export default function Features() {
                   </dd>
                 </div>
                 <div className="w-52 flex flex-col items-center py-6">
-                <Image src="/images/icons/quality.png" width={30} height={30}/>
+                <Image src="/images/icons/quality.png" width={30} height={30} alt="icono de calidad"/>
                   <dt className="text-xl text-white text-center font-black">
                     CALIDAD
                   </dt>
@@ -27,7 +27,7 @@ export default function Features() {
                   </dd>
                 </div>
                 <div className="w-52 flex flex-col items-center py-6">
-                <Image src="/images/icons/fast.png" width={30} height={30}/>
+                <Image src="/images/icons/fast.png" width={30} height={30} alt="icono de rapidez"/>
                   <dt className="text-xl text-white text-center font-black">
                     RAPIDEZ
                   </dt>

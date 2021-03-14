@@ -9,7 +9,7 @@ export default function Services(props) {
         <h2 className="text-xl text-center font-black pb-2 md:hidden">TRANSPORTE</h2>
         <div className="flex flex-col lg:flex-row align-center">
           <div className="flex justify-center lg:justify-start lg:pl-32 lg:w-7/12">
-            <Image src="/images/transport.png" height={700} width={750} />
+            <Image src="/images/transport.png" height={700} width={750} alt="foto de camión RYMSA"/>
           </div>
           <div className="flex flex-col items-center justify-center px-10 py-5 lg:w-4/12">
             <div className="">
@@ -35,7 +35,7 @@ export default function Services(props) {
         <h2 className="text-xl text-center font-black pb-2 md:hidden">PRODUCCIÓN</h2>
         <div className="pb-8 flex flex-col lg:flex-row-reverse align-center">
           <div className="flex justify-center lg:pr-40 lg:w-7/12">
-          <Image src="/images/sertoy.png" height={700} width={750} />
+          <Image src="/images/sertoy.png" height={700} width={750} alt="Foto del taller"/>
           </div>
           <div className="flex flex-col items-center justify-center px-10 py-5 lg:w-4/12 lg:px-24">
           <h2 className="text-xl text-center font-black pb-2 hidden md:block">PRODUCCIÓN</h2>

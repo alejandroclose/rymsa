@@ -10,7 +10,7 @@ export default function ReferedBy() {
         </h2>
         <div>
           <div className="mx-auto w-full pb-8">
-            <dl className="flex flex-col md:flex-row items-center justify-around">
+            <div className="flex flex-col md:flex-row items-center justify-around">
               <div className="w-72 flex flex-col items-center py-8">
                 <Image src="/images/ingrup.png" width={100} height={100} alt="logo Ingrup"/>
               </div>
@@ -20,7 +20,7 @@ export default function ReferedBy() {
               <div className="w-72 flex flex-col items-center py-8">
                 <Image src="/images/kerns.png" width={100} height={100} alt="logo Kerns"/>
               </div>
-            </dl>
+            </div>
           </div>
         </div>
       </div>

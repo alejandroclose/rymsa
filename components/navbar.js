@@ -9,7 +9,7 @@ export default function Navbar() {
           <div className=" mx-auto px-2 sm:px-6 lg:px-8">
             <div className="flex justify-between h-16">
               <div className="flex w-full">
-                <div className="flex-shrink-0 flex items-center text-2xl text-red leading-9 font-racing mx-6 pl-20">
+                <div className="flex-shrink-0 flex items-center text-2xl text-red leading-9 font-racing mx-6 lg:pl-20">
                   R&MSA
                   {/* <img
                     className="block lg:hidden h-8 w-auto"

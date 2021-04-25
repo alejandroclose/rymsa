@@ -22,7 +22,7 @@ export default function About() {
             <h2 className="text-xl text-center p-8 font-black hidden lg:block">CONÓCENOS</h2>
               <h3 className="font-semibold text-lg pt-1 lg:text-center">Ubicación</h3>
               <div className="font-normal text-base pb-4 lg:text-center">
-                16 Avenida 7-88 zona 4 de Villanueva, El Sarsal, Guatemala,
+                16 Avenida 7-88 zona 4 de Villanueva, El Zarzal, Guatemala,
                 Guatemala
               </div>
               <h3 className="font-semibold text-lg pt-1 lg:text-center">Teléfono</h3>
